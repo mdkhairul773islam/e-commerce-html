@@ -1,0 +1,118 @@
+/* checkout section start */
+.checkout_section {
+	background: #E7E7E7;
+	padding: 15px 0;
+}
+.checkout_section .checkout_container {
+	border-radius: 4px;
+	padding: 15px 0;
+	background: #fff;
+}
+.checkout_section .title {
+	border-bottom: 1px solid #464646;
+	text-transform: uppercase;
+	padding: 0 0 8px;
+}
+.checkout_section .checkout_container p {
+	letter-spacing: 1px;
+	text-align: center;
+	margin: 15px 0;
+}
+.checkout_section .required label {
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 100%;
+	overflow: hidden;
+}
+.checkout_section .required label:after {
+	color: #FB4E0A;
+	content: " *";
+}
+.checkout_section .checkout_form {
+	padding-bottom: 45px;
+	align-items: center;
+	position: relative;
+	display: flex;
+	height: 100%;
+}
+.checkout_section .checkout_form form {width: 100%;}
+.checkout_section .form-control:focus {
+	border-color: #464646;
+	outline: none;
+	box-shadow: none;
+}
+.checkout_section .checkout_form .forgot {
+	text-transform: uppercase;
+	display: inline-block;
+	letter-spacing: 1px;
+	margin: 15px 0 0;
+	color: #464646;
+}
+.checkout_section .checkout_form .forgot:hover {text-decoration: underline;}
+.checkout_section .checkout_form .forgot span {color: #FF0101;}
+.checkout_section .checkout_form .btn:hover {background: #000;}
+.checkout_section .checkout_form .btn {
+	margin: 15px 25px 0 0;
+	background: #1F1F1F;
+	letter-spacing: 2px;
+	border-radius: 4px;
+	min-width: 125px;
+	font-size: 16px;
+	color: #fff;
+	transition: all .2s;
+}
+
+.checkout_section .others_form {
+	position: relative;
+	flex-wrap: wrap;
+	display: flex;
+	height: 100%;
+}
+.checkout_section .others_form .btn_list {
+	margin-bottom: 0;
+	width: 100%;
+}
+.checkout_section .others_form li {
+	margin: 30px 0;
+	width: 100%;
+}
+.checkout_section .others_form a.facebook:hover {background: #2d4474;}
+.checkout_section .others_form a.google:hover {background: #b03526;}
+.checkout_section .others_form a.guest:hover {background: #73a230;}
+.checkout_section .others_form li:last-child {margin-bottom: 0;}
+.checkout_section .others_form a.facebook {background: #3B5999;}
+.checkout_section .others_form a.google {background: #D34736;}
+.checkout_section .others_form a.guest {background: #8EC63F;}
+.checkout_section .others_form a {
+	text-transform: uppercase;
+	padding: 9px 20px 5px;
+	display: inline-table;
+	border-radius: 4px;
+	text-align: center;
+	color: #fff;
+	width: 100%;
+	transition: all .2s;
+}
+.checkout_section .others_form .facebook i {font-size: 23px;}
+.checkout_section .others_form a i {
+	margin-right: 10px;
+    font-size: 25px;
+    vertical-align: middle;
+    margin-top: -3px;
+    display: inline-block;
+}
+@media screen and (min-width: 992px) {
+	.checkout_section .checkout_form {padding-right: 30px;}
+	.checkout_section .others_form {padding: 12px 0 0 30px;}
+	.checkout_section .others_form:after {
+		display: inline-block;
+		position: absolute;
+		content: '';
+		width: 1px;
+		top: 0;
+		left: -15px;
+		height: 100%;
+		background: #464646;
+	}
+}
+/* checkout section end */
